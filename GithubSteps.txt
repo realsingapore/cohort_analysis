@@ -1,0 +1,51 @@
+# vscode procedure
+# TERMINAL >> cmd
+Create a file named GithubSteps.txt
+
+# 1. Navigate to project folder
+cd.. C:\Users\elsingy\Documents\AMDARI DS\Internship\RFM
+
+# (Optional) Remove any previous Git history
+rmdir /s /q .git
+
+# 2. Create .gitignore file (then add lines like: Data/ and .env inside it)
+# On Windows (PowerShell):
+init .gitignore
+
+# 3. Configure git
+git config --global user.name "Oluwaseun"
+git config --global user.email "realsingapore@gmail.com"
+
+# 4. Initialize repository
+git init
+
+# 4a. Check status
+git status
+
+# 5. Add and commit all files
+git add .
+git commit -m "Initial commit: RFM" # e.g. RFM
+
+Answer the prompts!!!
+
+# 5a. Add branch
+git branch
+
+# 6. Add remote repository
+git remote add origin https://github.com/realsingapore/RFM.git
+
+# 7. Rename branch from master to 'main' and push to GitHub
+git branch -M main
+git push -u origin main
+
+# 8. Check which file changes were made
+git status
+
+# 9. Add all/any changes
+git add .
+
+# 10. Commit the changes
+git commit -m "Add new feature: description of changes"
+
+# 11. Push to GitHub
+git push origin main

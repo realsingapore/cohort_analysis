@@ -1,0 +1,251 @@
+03-11-2025
+1100am
+Projects -Cohort Analysis for assessing customer retention in E-commerce industry.
+
+__
+
+**Rationale for cohort analysis**
+
+**Cohort analysis** is a powerful technique used in business analytics to gain insights into the behavior and characteristics of specific groups of customers, users, or any defined segments over time. These groups, or cohorts, share a common characteristic or experience, such as the date of their first purchase, sign-up, or acquisition.
+
+The primary purpose of cohort analysis is to track how different cohorts perform and behave over their entire lifecycle, allowing businesses to understand their customer retention, engagement, and revenue generation patterns. Here's a breakdown of key elements in cohort analysis:
+
+**Cohort analysis** is a valuable tool in the realm of customer retention because it provides businesses with a greater understanding of customer behavior over time. Here are reasons why carrying out cohort analysis is essential for assessing and improving customer retention:
+
+- **Identifying Retention Trends**: Cohort analysis allows businesses to group customers based on shared traits, such as their acquisition date or first purchase. By tracking these cohorts over time, it becomes easier to identify trends in customer behavior, whether retention rates are increasing or decreasing.
+
+- **Pinpointing Churn Patterns**: Cohort analysis helps in identifying when and why customers tend to churn or stop making repeat purchases. This information is crucial for devising strategies to reduce churn and retain more customers.
+
+__
+
+Aim, Data Description And Tech Stack.
+
+
+**Aim of Project**
+
+The aim of the project is to conduct a retention rate time-based cohort analysis on the dataset.
+
+**Objectives of the Project:**
+
+**01**  
+**Retention Rate Analysis:**  
+To calculate and analyse the retention rates of different customer cohorts over time.
+
+**02**  
+**Cohort Segmentation:**  
+To segment customers into distinct cohorts based on common characteristics or behaviours, such as acquisition date or first purchase, enabling a more granular analysis of customer retention.
+
+**03**  
+**Identify Retention Trends:**  
+To identify trends and patterns in customer retention within each cohort.
+
+**04**  
+**Churn Analysis:**  
+To pinpoint the reasons and timing of customer churn within various cohorts.
+
+**05**  
+**Recommendation Strategies:**  
+To develop data-driven strategies and recommendations for improving customer retention based on the insights gained from the cohort analysis.
+
+__
+
+Of course! Here's the full text from the "Data Description" slide:
+
+---
+
+**Data Description**
+
+- **InvoiceNo**: A unique identifier for each invoice or transaction, often used for tracking and reference purposes.
+
+- **StockCode**: A code or identifier associated with a specific product or item in the e-commerce store's inventory, used for cataloging and tracking purposes.
+
+- **Description**: A categorical feature that provides a brief textual description of the product or item being sold, offering clarity to customers about what they are purchasing.
+
+- **Quantity**: The quantity or number of units of a product that were included in the transaction, indicating the purchase volume for each item.
+
+- **InvoiceDate**: The date and time when the transaction or invoice was created, offering insights into when purchases were made and allowing for temporal analysis.
+
+- **UnitPrice**: Indicating the total cost of the items purchased.
+
+- **CustomerID**: A unique identifier associated with each customer or shopper, allowing for customer-specific analysis and tracking of individual purchasing behavior.
+
+- **Country**: The name of the country where the customer is located or where the transaction occurred.
+
+__
+
+
+**Tech Stack**
+
+1. **Programming language – Python**
+
+**Libraries:**
+- **Numpy**: For performing mathematical operations over data  
+- **Pandas**: For Data Analysis and Manipulation  
+- **Matplotlib.pyplot**: For Data Visualization  
+- **Seaborn**: For Data Visualization  
+- **Scikit-learn**: For Machine Learning
+
+__
+
+Analysing Data in DS!
+
+1.Import all the needed libraries e.g. pandas as pd; numpy as np
+2. Make a copy of the raw data
+3. Import the data
+4. Make quick data check (the head, tail, etc.)
+5. Perform data cleaning, conversion, etc.
+6. Perform EDA (Explorative Data Analysis)
+
+
+___
+
+
+04/11/2025
+2310pm
+
+Projects - Predicting Customer Churn: Identifying Customers that are Susceptible to Churn.
+
+Data Science Project: Predicting Customer Churn
+
+Project Learning Objectives
+- Develop a predictive model to accurately forecast customer churn within the telecommunications industry.
+- Leverage historical customer data and relevant features to build a machine learning model capable of identifying customers likely to churn.
+- Evaluate model performance using appropriate metrics.
+
+Learning Skills
+- Python Proficiency  
+- Data Pre-processing  
+- Exploratory Data Analysis  
+- Model Development  
+- Churn Prediction
+
+___
+
+
+Business Introduction
+
+Reder Telecom is a prominent player in the telecommunications industry, offering a comprehensive suite of services including mobile, fixed-line, broadband, and television to millions of customers nationwide. With a strong market presence spanning over two decades, the company is renowned for its cutting-edge technology, reliable network infrastructure, and exceptional customer service.
+
+Reder Telecom is committed to delivering excellence across all its service offerings and places a strong emphasis on fostering lasting customer relationships. The company has earned a sterling reputation for unparalleled reliability and outstanding customer support.
+
+__
+
+
+Business Problem Statement
+
+Reder Telecom is currently facing an increasing rate of customer churn. Customer churn refers to the percentage of customers who discontinue their subscriptions or switch to competitors' services. The telecommunications industry is highly competitive, with numerous players offering similar services, making customer retention a growing challenge.
+
+Key obstacles contributing to churn include:
+- Intense market competition from multiple service providers.
+- Changing customer preferences, driven by demand for personalized and high-quality services.
+- Pricing pressures from competitors, which have impacted profitability and made it difficult to maintain competitive pricing.
+- Network quality and performance issues, which negatively affect customer satisfaction.
+- Challenges in building and maintaining customer loyalty, leading to higher churn rates.
+
+___
+
+Why Churn Prediction?
+
+Churn prediction is a strategic approach that utilizes customer data to identify clients who are less likely to renew their contracts. Initiating this project is crucial for addressing current challenges and enhancing Reder Telecom’s operational effectiveness.
+
+Key Reasons for Churn Prediction
+
+1. Cost Reduction
+   Retaining existing customers is significantly more cost-effective than acquiring new ones. Reducing churn leads to substantial savings.
+
+2. Revenue Growth
+   Lower churn rates result in higher revenue, as long-term customers are more likely to purchase additional services.
+
+3. Customer Satisfaction
+   Understanding customer behavior and preferences allows Reder Telecom to improve service quality, boosting satisfaction and loyalty.
+
+4. Competitive Advantage 
+   Using data analytics to predict churn enables Reder Telecom to proactively retain customers and outperform competitors.
+
+Data-Driven Decision-Making
+In a data-rich industry, leveraging analytics empowers the company to make informed, effective strategic decisions.
+
+
+__
+
+Data Description
+
+The dataset available from the company contains the following information:
+
+- Customer ID: A unique identifier for each customer.  
+- Name: The name of the customer.  
+- Age: The age of the customer.  
+- Gender: The gender of the customer.  
+- Location: The location or city where the customer is based.  
+- Email: The email address of the customer.  
+- Phone: The phone number of the customer.  
+- **Address: The postal address of the customer.  
+- Segment: The customer segment or category to which the customer belongs (e.g., Segment A, Segment B, Segment C).
+__
+Data Description
+
+The dataset includes two main categories of information:
+
+Purchase History
+- A list of dictionaries representing each customer's purchase history.
+- Each dictionary contains:
+  - Product: Name of the product.
+  - Frequency: Number of times the product was purchased.
+  - Cost: Cost of the product.
+
+Subscription Details
+- A dictionary containing information about the customer's subscription plan.
+- Includes:
+  - Plan: Name of the subscription plan.
+  - Start Date: Start date of the subscription.
+  - End Date: End date of the subscription.
+
+#### **Service Interactions**
+- A list of dictionaries representing the customer's interactions with customer service.
+- Each dictionary includes:
+  - **Type**: Type of service, which could be Call, Email, or Chat.
+  - **Date**: Date of the service interaction.
+
+#### **Payment History**
+- A list of dictionaries representing the customer's payment history.
+- Each dictionary includes:
+  - **Method**: Payment method, which can be Credit Card, PayPal, or Bank Transfer.
+  - Late Payments: Number of late payments.
+
+
+Data Description
+The dataset available from the company contains the following information:
+Website Usage
+- A dictionary containing metrics related to the customer's usage of a website or app.
+- Page Views: The number of website page views from the customer.
+- Time Spent: Time spent on the website by a customer in minutes.
+Clickstream Data
+- A list of dictionaries representing the customer's clickstream data.
+- Each dictionary includes:
+- Action: Clickstream action of the user, could be Click, Search, or Add to Cart.
+- Page: The website page in which the user performed this action.
+- Timestamp: Timestamp of the clickstream action.
+
+Data Description**
+
+The dataset available from the company contains the following information:
+
+#### **Engagement Metrics**
+- A dictionary containing engagement metrics such as:
+  - **Logins**: The number of logins the user made.
+  - **Frequency**: How often a customer logs in to the platform. Could be Daily, Weekly, or Monthly.
+
+#### **Feedback**
+- Feedback provided by the customer, including:
+  - **Rating**: A value between 1 and 5 that indicates the customer’s feedback rating.
+  - **Comment**: The comment left by the customer for the feedback.
+
+Here's the full text from the image titled **"Data Description"**:
+
+---
+
+AS325733875GB
+Tracking number
+
+Log-book DVLA
+
